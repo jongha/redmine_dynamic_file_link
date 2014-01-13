@@ -1,0 +1,3 @@
+= Redmine Dynamic File Link
+
+This is a plugin for Redmine.
