@@ -1,3 +1,21 @@
 = Redmine Dynamic File Link
 
-This is a plugin for Redmine.
+{<img src="https://gemnasium.com/jongha/redmine_dynamic_file_link.png" alt="Dependency Status" />}[https://gemnasium.com/jongha/redmine_dynamic_file_link]
+
+This is a plugin for Redmine. Redmine support file tab and url of each file for project. Uploaded attached files are stored in <Redmine install dir>/files directory subdirectories named after the year the file has been uploaded. Multiple files can be uploaded with the same name, however a link within the wiki will only show the most recently uploaded one. But It is not supported when you changed the text editor format for HTML format using like CKEditor. This plugin supports an absolute file url that it is the most recently uploaded one dynamically.
+
+== Plugin installation
+
+1. Copy the plugin directory into the plugins directory.
+
+2. (Re)start Redmine.
+
+== Uninstall
+
+1. Remove the plugin directory into the plugins directory.
+
+2. (Re)start Redmine.
+
+== License
+
+redmine_dynamic_file_link is available under the terms of the MIT License.
